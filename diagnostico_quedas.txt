@@ -1,0 +1,189 @@
+[18:16:19.350] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[18:18:25.835] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[18:20:35.840] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[18:22:03.849] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 16ms | UDP: True
+[18:23:30.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[18:23:41.847] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (9ms), mas conexao externa caiu. | GW: 9ms | WAN: 0ms | UDP: True
+[18:24:05.272] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (64ms), mas conexao externa caiu. | GW: 64ms | WAN: 0ms | UDP: True
+[18:24:11.852] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 17ms | UDP: True
+[18:24:12.798] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 79ms | UDP: True
+[18:24:30.847] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 12ms | UDP: True
+[18:24:56.855] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:25:13.355] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[18:25:21.849] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[18:26:33.853] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[18:26:52.846] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (11ms), mas conexao externa caiu. | GW: 11ms | WAN: 0ms | UDP: True
+[18:31:24.848] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 21ms | UDP: True
+[18:32:12.848] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 130ms | UDP: True
+[18:32:13.409] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (150ms). Vizinho saturando trafego no radio. | GW: 150ms | WAN: 7ms | UDP: True
+[18:32:24.330] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (14ms), mas conexao externa caiu. | GW: 14ms | WAN: 0ms | UDP: True
+[18:32:27.350] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:33:00.850] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 10ms | UDP: True
+[18:33:14.849] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[18:35:34.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (9ms), mas conexao externa caiu. | GW: 9ms | WAN: 0ms | UDP: True
+[18:35:34.782] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (16ms), mas conexao externa caiu. | GW: 16ms | WAN: 0ms | UDP: True
+[18:36:18.333] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (21ms), mas conexao externa caiu. | GW: 21ms | WAN: 0ms | UDP: True
+[18:36:36.322] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (15ms), mas conexao externa caiu. | GW: 15ms | WAN: 0ms | UDP: True
+[18:37:00.854] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:37:14.383] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (160ms). Vizinho saturando trafego no radio. | GW: 160ms | WAN: 7ms | UDP: True
+[18:37:14.963] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (157ms). Vizinho saturando trafego no radio. | GW: 157ms | WAN: 7ms | UDP: True
+[18:39:24.835] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (14ms), mas conexao externa caiu. | GW: 14ms | WAN: 0ms | UDP: True
+[18:39:27.847] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 17ms | UDP: True
+[18:41:20.326] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (15ms), mas conexao externa caiu. | GW: 15ms | WAN: 0ms | UDP: True
+[18:43:14.851] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 15ms | UDP: True
+[18:43:29.854] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 14ms | UDP: True
+[18:43:32.835] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (15ms), mas conexao externa caiu. | GW: 15ms | WAN: 0ms | UDP: True
+[18:44:30.353] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[18:46:16.332] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (15ms), mas conexao externa caiu. | GW: 15ms | WAN: 0ms | UDP: True
+[18:46:41.321] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (37ms), mas conexao externa caiu. | GW: 37ms | WAN: 0ms | UDP: True
+[18:47:03.845] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 16ms | UDP: True
+[18:47:51.325] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 23ms | UDP: True
+[18:48:18.090] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (203ms). Vizinho saturando trafego no radio. | GW: 203ms | WAN: 8ms | UDP: True
+[18:48:21.352] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 22ms | UDP: True
+[18:49:21.848] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[18:50:20.403] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (130ms). Vizinho saturando trafego no radio. | GW: 130ms | WAN: 12ms | UDP: True
+[18:50:26.853] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 13ms | UDP: True
+[18:51:27.761] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (63ms), mas conexao externa caiu. | GW: 63ms | WAN: 0ms | UDP: True
+[18:51:33.846] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 11ms | UDP: True
+[18:51:57.847] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 45ms | UDP: True
+[18:52:27.845] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[18:53:23.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[18:53:37.359] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 56ms | UDP: True
+[18:54:02.852] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:54:07.842] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:54:21.837] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (13ms), mas conexao externa caiu. | GW: 13ms | WAN: 0ms | UDP: True
+[18:55:47.350] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[18:55:58.849] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[18:58:49.740] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 25ms | UDP: True
+[18:58:50.300] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 30ms | UDP: True
+[19:03:11.827] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (24ms), mas conexao externa caiu. | GW: 24ms | WAN: 0ms | UDP: True
+[19:04:19.855] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 9ms | UDP: True
+[19:05:41.850] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[19:07:15.356] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 178ms | UDP: True
+[19:07:15.961] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (170ms). Vizinho saturando trafego no radio. | GW: 170ms | WAN: 9ms | UDP: True
+[19:07:16.551] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (160ms). Vizinho saturando trafego no radio. | GW: 160ms | WAN: 0ms | UDP: True
+[19:08:14.350] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[19:11:20.832] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (22ms), mas conexao externa caiu. | GW: 22ms | WAN: 0ms | UDP: True
+[19:12:17.127] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (159ms). Vizinho saturando trafego no radio. | GW: 159ms | WAN: 6ms | UDP: True
+[19:12:17.701] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (167ms). Vizinho saturando trafego no radio. | GW: 167ms | WAN: 7ms | UDP: True
+[19:12:18.293] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 81ms | UDP: True
+[19:14:42.852] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 10ms | UDP: True
+[19:16:32.338] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[19:19:09.379] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (116ms). Vizinho saturando trafego no radio. | GW: 116ms | WAN: 22ms | UDP: True
+[19:21:55.351] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 15ms | UDP: True
+[19:27:58.851] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[19:32:00.854] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[19:32:19.785] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (14ms), mas conexao externa caiu. | GW: 14ms | WAN: 0ms | UDP: True
+[19:34:09.094] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:34:09.790] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:34:24.599] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:34:30.340] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:34:36.678] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:34:46.607] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:35:28.748] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:35:37.365] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:35:56.515] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:36:08.121] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:36:14.355] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:36:14.778] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:36:35.158] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:37:18.581] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:37:54.804] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:42:18.817] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 104ms | UDP: True
+[19:42:19.374] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (170ms). Vizinho saturando trafego no radio. | GW: 170ms | WAN: 9ms | UDP: True
+[19:46:17.322] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 11ms | UDP: True
+[19:46:47.313] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (35ms), mas conexao externa caiu. | GW: 35ms | WAN: 0ms | UDP: True
+[19:47:20.631] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (135ms). Vizinho saturando trafego no radio. | GW: 135ms | WAN: 8ms | UDP: True
+[19:47:21.188] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (144ms). Vizinho saturando trafego no radio. | GW: 144ms | WAN: 8ms | UDP: True
+[19:50:09.849] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (7ms), mas conexao externa caiu. | GW: 7ms | WAN: 0ms | UDP: True
+[19:51:34.345] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (2ms), mas conexao externa caiu. | GW: 2ms | WAN: 0ms | UDP: True
+[19:54:04.492] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[19:54:43.817] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:54:44.267] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[19:59:25.349] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[20:02:20.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:04:47.354] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 12ms | UDP: True
+[20:10:17.816] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 43ms | UDP: True
+[20:11:02.829] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:12:31.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[20:12:35.772] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (47ms), mas conexao externa caiu. | GW: 47ms | WAN: 0ms | UDP: True
+[20:12:38.838] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[20:12:48.342] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 17ms | UDP: True
+[20:13:32.548] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (134ms). Vizinho saturando trafego no radio. | GW: 134ms | WAN: 47ms | UDP: True
+[20:17:21.580] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (103ms). Vizinho saturando trafego no radio. | GW: 103ms | WAN: 4ms | UDP: True
+[20:17:22.525] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (158ms). Vizinho saturando trafego no radio. | GW: 158ms | WAN: 7ms | UDP: True
+[20:22:22.925] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (116ms). Vizinho saturando trafego no radio. | GW: 116ms | WAN: 239ms | UDP: True
+[20:22:23.701] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:27:17.841] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (10ms), mas conexao externa caiu. | GW: 10ms | WAN: 0ms | UDP: True
+[20:29:09.850] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (7ms), mas conexao externa caiu. | GW: 7ms | WAN: 0ms | UDP: True
+[20:30:20.332] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (11ms), mas conexao externa caiu. | GW: 11ms | WAN: 0ms | UDP: True
+[20:33:20.355] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 6ms | UDP: True
+[20:36:41.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[20:38:48.347] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:39:29.851] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (8ms), mas conexao externa caiu. | GW: 8ms | WAN: 0ms | UDP: True
+[20:41:58.847] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:42:23.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (12ms), mas conexao externa caiu. | GW: 12ms | WAN: 0ms | UDP: True
+[20:44:02.345] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (5ms), mas conexao externa caiu. | GW: 5ms | WAN: 0ms | UDP: True
+[20:52:25.110] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (151ms). Vizinho saturando trafego no radio. | GW: 151ms | WAN: 7ms | UDP: True
+[20:55:20.847] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 21ms | UDP: True
+[20:56:06.346] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[20:57:26.119] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (100ms), mas conexao externa caiu. | GW: 100ms | WAN: 0ms | UDP: True
+[20:59:19.340] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (11ms), mas conexao externa caiu. | GW: 11ms | WAN: 0ms | UDP: True
+[21:05:21.743] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (74ms), mas conexao externa caiu. | GW: 74ms | WAN: 0ms | UDP: True
+[21:06:49.352] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (3ms), mas conexao externa caiu. | GW: 3ms | WAN: 0ms | UDP: True
+[21:09:53.594] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (141ms). Vizinho saturando trafego no radio. | GW: 141ms | WAN: 52ms | UDP: True
+[21:10:01.598] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (108ms). Vizinho saturando trafego no radio. | GW: 108ms | WAN: 109ms | UDP: True
+[21:10:07.843] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 80ms | UDP: True
+[21:10:09.348] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[21:10:11.116] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (106ms). Vizinho saturando trafego no radio. | GW: 106ms | WAN: 84ms | UDP: True
+[21:10:15.367] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (107ms). Vizinho saturando trafego no radio. | GW: 107ms | WAN: 53ms | UDP: True
+[21:10:44.357] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 10ms | UDP: True
+[21:10:50.432] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (102ms). Vizinho saturando trafego no radio. | GW: 102ms | WAN: 13ms | UDP: True
+[21:10:54.379] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (113ms). Vizinho saturando trafego no radio. | GW: 113ms | WAN: 40ms | UDP: True
+[21:12:31.956] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (133ms). Vizinho saturando trafego no radio. | GW: 133ms | WAN: 27ms | UDP: True
+[21:12:32.528] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (215ms). Vizinho saturando trafego no radio. | GW: 215ms | WAN: 8ms | UDP: True
+[21:12:48.822] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (10ms), mas conexao externa caiu. | GW: 10ms | WAN: 0ms | UDP: True
+[21:13:02.356] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 33ms | UDP: True
+[21:17:20.347] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[21:18:35.349] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 20ms | UDP: True
+[21:18:53.149] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (105ms). Vizinho saturando trafego no radio. | GW: 105ms | WAN: 44ms | UDP: True
+[21:21:13.839] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (19ms), mas conexao externa caiu. | GW: 19ms | WAN: 0ms | UDP: True
+[21:24:13.846] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 15ms | UDP: True
+[21:25:14.350] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (7ms), mas conexao externa caiu. | GW: 7ms | WAN: 0ms | UDP: True
+[21:25:16.092] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (124ms). Vizinho saturando trafego no radio. | GW: 124ms | WAN: 0ms | UDP: True
+[21:25:16.787] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (61ms), mas conexao externa caiu. | GW: 61ms | WAN: 0ms | UDP: True
+[21:25:18.723] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (95ms), mas conexao externa caiu. | GW: 95ms | WAN: 0ms | UDP: True
+[21:25:21.823] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 31ms | UDP: True
+[21:25:22.304] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 26ms | UDP: True
+[21:25:23.219] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (153ms). Vizinho saturando trafego no radio. | GW: 153ms | WAN: 27ms | UDP: True
+[21:25:25.158] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (113ms). Vizinho saturando trafego no radio. | GW: 113ms | WAN: 0ms | UDP: True
+[21:25:30.494] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (200ms). Vizinho saturando trafego no radio. | GW: 200ms | WAN: 103ms | UDP: True
+[21:25:31.209] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (138ms). Vizinho saturando trafego no radio. | GW: 138ms | WAN: 0ms | UDP: True
+[21:25:31.778] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 329ms | UDP: True
+[21:26:23.901] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (130ms). Vizinho saturando trafego no radio. | GW: 130ms | WAN: 90ms | UDP: True
+[21:26:28.349] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (4ms), mas conexao externa caiu. | GW: 4ms | WAN: 0ms | UDP: True
+[21:26:31.713] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (64ms), mas conexao externa caiu. | GW: 64ms | WAN: 0ms | UDP: True
+[21:26:32.285] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 83ms | UDP: True
+[21:26:32.860] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 35ms | UDP: True
+[21:26:33.775] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 44ms | UDP: True
+[21:26:37.175] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (164ms). Vizinho saturando trafego no radio. | GW: 164ms | WAN: 0ms | UDP: True
+[21:26:37.781] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 124ms | UDP: True
+[21:26:51.837] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (6ms), mas conexao externa caiu. | GW: 6ms | WAN: 0ms | UDP: True
+[21:27:00.735] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (105ms). Vizinho saturando trafego no radio. | GW: 105ms | WAN: 13ms | UDP: True
+[21:27:28.407] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (158ms). Vizinho saturando trafego no radio. | GW: 158ms | WAN: 7ms | UDP: True
+[21:28:17.849] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (7ms), mas conexao externa caiu. | GW: 7ms | WAN: 0ms | UDP: True
+[21:28:21.337] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (19ms), mas conexao externa caiu. | GW: 19ms | WAN: 0ms | UDP: True
+[21:29:04.312] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (17ms), mas conexao externa caiu. | GW: 17ms | WAN: 0ms | UDP: True
+[21:29:17.844] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (14ms), mas conexao externa caiu. | GW: 14ms | WAN: 0ms | UDP: True
+[21:30:32.359] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 18ms | UDP: True
+[21:30:54.336] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (15ms), mas conexao externa caiu. | GW: 15ms | WAN: 0ms | UDP: True
+[21:31:44.930] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (135ms). Vizinho saturando trafego no radio. | GW: 135ms | WAN: 8ms | UDP: True
+[21:31:45.487] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (143ms). Vizinho saturando trafego no radio. | GW: 143ms | WAN: 7ms | UDP: True
+[21:31:46.046] [HIPOTESE 2: BUFFERBLOAT / AIRTIME] Gateway com latencia anormal (174ms). Vizinho saturando trafego no radio. | GW: 174ms | WAN: 7ms | UDP: True
+[21:32:02.333] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (24ms), mas conexao externa caiu. | GW: 24ms | WAN: 0ms | UDP: True
+[21:33:23.852] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (7ms), mas conexao externa caiu. | GW: 7ms | WAN: 0ms | UDP: True
+[21:34:00.334] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (20ms), mas conexao externa caiu. | GW: 20ms | WAN: 0ms | UDP: True
+[21:34:05.851] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 7ms | UDP: True
+[21:34:22.854] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 14ms | UDP: True
+[21:36:17.830] [HIPOTESE 1: TABELA NAT OU FIBRA] Roteador responde rapido (24ms), mas conexao externa caiu. | GW: 24ms | WAN: 0ms | UDP: True
+[21:36:42.847] [HIPOTESE 2 e 3: CANAL WI-FI OU CPU DO ROTEADOR] O roteador local parou de responder totalmente. | GW: 0ms | WAN: 19ms | UDP: True

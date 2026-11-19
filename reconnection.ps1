@@ -1,101 +1,89 @@
 # ================= CONFIGURAÇÕES =================
 $TargetSSID = ""
-$MaxFalhas = 4            
-$IntervaloNormalMs = 500  
-$TimeoutPingMs = 400      
+$MaxFalhas = 3             # Limiar de quedas consecutivas para reset
+$IntervaloNormalMs = 400   # Intervalo padrão entre checagens
+$TimeoutPingMs = 80       # Timeout ágil para não prender a thread
 
-$ValveRelayIP = "155.133.227.36"
-$ValvePingCount = 6
-$ValvePingIntervalMs = 200
+# Alvos neutros que nunca dão block
+$DNS1 = "1.1.1.1"          # Cloudflare
+$DNS2 = "8.8.8.8"          # Google
 # =================================================
 
+# Detecção automática do SSID atual
 if ([string]::IsNullOrWhiteSpace($TargetSSID)) {
-    Write-Host "Detectando rede Wi-Fi atual..." -ForegroundColor Cyan
+    Write-Host "Detectando rede Wi-Fi..." -ForegroundColor Cyan
     $wlanStatus = netsh wlan show interfaces
     $ssidMatch = ($wlanStatus | Select-String '^\s*SSID\s*:\s*(.+)$')
     if ($ssidMatch) {
         $TargetSSID = $ssidMatch.Matches[0].Groups[1].Value.Trim()
-        Write-Host "Rede detectada: '$TargetSSID'" -ForegroundColor Green
+        Write-Host "Rede conectada: '$TargetSSID'" -ForegroundColor Green
     } else {
-        Write-Host "Nenhuma rede Wi-Fi conectada. Defina `$TargetSSID." -ForegroundColor Red
+        Write-Host "Nenhuma rede Wi-Fi encontrada." -ForegroundColor Red
         Exit
     }
 }
 
+# Identifica o roteador da kitnet dinamicamente
+$GatewayIP = (Get-NetRoute -DestinationPrefix '0.0.0.0/0' -ErrorAction SilentlyContinue | Select-Object -ExpandProperty NextHop -First 1)
+Write-Host "Gateway local identificado: $GatewayIP" -ForegroundColor Cyan
+
 $FalhasSeguidas = 0
-Write-Host "Monitoramento ativo com descarte de travamento..." -ForegroundColor Cyan
+Write-Host "Monitoramento neutro ativo [Gateway Local + DNS Anycast]..." -ForegroundColor Green
 
 while ($true) {
-    $sucesso = $false
-    $tempoInicio = [System.Diagnostics.Stopwatch]::StartNew()
+    $redeOk = $false
+    $ping = New-Object System.Net.NetworkInformation.Ping
 
     try {
-        # Recria o objeto para liberar sockets presos no kernel caso haja interrupção brusca
-        $ping = New-Object System.Net.NetworkInformation.Ping
-        $reply = $ping.Send("1.1.1.1", $TimeoutPingMs)
-        
-        if ($reply.Status -eq [System.Net.NetworkInformation.IPStatus]::Success) {
-            $sucesso = $true
+        # 1. Checagem externa principal
+        $replyExt = $ping.Send($DNS1, $TimeoutPingMs)
+        if ($replyExt.Status -eq [System.Net.NetworkInformation.IPStatus]::Success) {
+            $redeOk = $true
         } else {
-            # Se falhou 1.1.1.1, tenta 8.8.8.8
-            $reply2 = $ping.Send("8.8.8.8", $TimeoutPingMs)
-            if ($reply2.Status -eq [System.Net.NetworkInformation.IPStatus]::Success) {
-                $sucesso = $true
+            # Contingência externa
+            $replyExt2 = $ping.Send($DNS2, $TimeoutPingMs)
+            if ($replyExt2.Status -eq [System.Net.NetworkInformation.IPStatus]::Success) {
+                $redeOk = $true
             }
         }
-        $ping.Dispose()
+
+        # 2. Se a externa falhou, checa se o próprio roteador local ainda responde
+        if (-not $redeOk -and $GatewayIP) {
+            $replyGw = $ping.Send($GatewayIP, 200)
+            if ($replyGw.Status -ne [System.Net.NetworkInformation.IPStatus]::Success) {
+                Write-Host " [ROTEADOR TRAVADO] Gateway $GatewayIP não responde no ar!" -ForegroundColor DarkYellow
+            }
+        }
     } catch {
-        $sucesso = $false
+        $redeOk = $false
+    } finally {
+        $ping.Dispose()
     }
 
-    $tempoInicio.Stop()
-
-    # Se a execução demorou muito mais do que o timeout (kernel travou esperando rota),
-    # contamos como falha mesmo que não tenha estourado exceção explícita
-    if ($tempoInicio.ElapsedMilliseconds -gt ($TimeoutPingMs * 2.5)) {
-        $sucesso = $false
-    }
-
-    if ($sucesso) {
+    if ($redeOk) {
         if ($FalhasSeguidas -gt 0) {
-            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Conexão reestabelecida antes do reset." -ForegroundColor Green
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Conexão recuperou antes do reset." -ForegroundColor Green
         }
         $FalhasSeguidas = 0
         Start-Sleep -Milliseconds $IntervaloNormalMs
     } else {
         $FalhasSeguidas++
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Falha detectada ($FalhasSeguidas/$MaxFalhas) - Latência: $($tempoInicio.ElapsedMilliseconds)ms" -ForegroundColor Yellow
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Falha de conectividade detectada ($FalhasSeguidas/$MaxFalhas)" -ForegroundColor Yellow
 
         if ($FalhasSeguidas -ge $MaxFalhas) {
-            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Queda confirmada. Reconectando a '$TargetSSID'..." -ForegroundColor Red
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Queda total confirmada (~1,5s). Resetando Wi-Fi..." -ForegroundColor Red
 
+            # Reset rápido da associação Wi-Fi (Nível 2)
             netsh wlan disconnect | Out-Null
-            Start-Sleep -Milliseconds 400
+            Start-Sleep -Milliseconds 300
             netsh wlan connect name="$TargetSSID" | Out-Null
 
-            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Reassociação enviada. Aguardando link e IP..." -ForegroundColor Green
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Reassociação enviada. Aguardando IP e rotas..." -ForegroundColor Green
             $FalhasSeguidas = 0
-            Start-Sleep -Seconds 4
-
-            # Warm-up Valve
-            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Aquecendo rota Valve SP ($ValveRelayIP)..." -ForegroundColor Magenta
-            $pValve = New-Object System.Net.NetworkInformation.Ping
-            for ($i = 1; $i -le $ValvePingCount; $i++) {
-                try {
-                    $valveReply = $pValve.Send($ValveRelayIP, 2000)
-                    if ($valveReply.Status -eq "Success") {
-                        Write-Host " -> Valve SP [OK]: $($valveReply.RoundtripTime)ms" -ForegroundColor Green
-                    } else {
-                        Write-Host " -> Valve SP: $($valveReply.Status)" -ForegroundColor DarkGray
-                    }
-                } catch {
-                    Write-Host " -> Valve SP: falha de socket" -ForegroundColor DarkGray
-                }
-                Start-Sleep -Milliseconds $ValvePingIntervalMs
-            }
-            $pValve.Dispose()
-
-            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Concluído. Retomando monitoramento." -ForegroundColor Cyan
+            
+            # Pausa para o DHCP e o roteador negociarem a nova sessão
+            Start-Sleep -Seconds 3
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Retomando monitoramento." -ForegroundColor Cyan
         } else {
             Start-Sleep -Milliseconds 150
         }
